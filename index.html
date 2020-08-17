@@ -16,10 +16,10 @@
         <h3>CONVERT TO BINARY</h3>
 
             <div class="Deci">
-                <form class="Deci">
+                <form class="Deci" onsubmit="return decimal2binary()" action="">
                     <label for="decimal">Decimal</label>
 
-                    <input type="text" id="decimal" placeholder="Enter decimal number">
+                    <input type="text" name="decimal" id="decimal" placeholder="Enter decimal number">
                     <input type="submit" value="Convert" class="button1">
  
                 </form>
@@ -28,10 +28,10 @@
         <h3>CONVERT TO DECIMAL</h3>
 
             <div class="Bina">
-                <form class="Bina">
+                <form class="Bina" onsubmit="return binary2decimal()" action="">
                     <label for="binary">Binary</label>
 
-                    <input type="text" id="binary" placeholder="Enter binary number">
+                    <input type="text" name="binary" id="binary" placeholder="Enter binary number">
                     <input type="submit" value="Convert" class="button2">
 
                 </form>
