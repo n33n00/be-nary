@@ -1,25 +1,17 @@
-*
-{
+* {
     /*background-image: url(./be-nary.png);*/
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-h1,h2,h3
-{
+h1,h2,h3 {
     color: rgb(21, 32, 32);
     padding: 20px;
-
 }
-
-div
-{
-    margin: 0px,12px,0px,30px;
+div {
+    margin: 0 12px 0 30px;
     font-size: 18px;
 }
-
-.button1
-{
+.button1, .button2 {
     width: 100px;
     height: 40px;
     background: rgb(2, 37, 2);
@@ -28,24 +20,13 @@ div
     text-align: center;
     border-radius: 5px;
 }
-.button1:hover
-{
+.button1:hover, .button2:hover {
     background: rgb(49, 1, 49);
 }
-
-.button2
-{
-    width: 100px;
-    height: 40px;
-    background:  rgb(2, 37, 2);
-    color:rgb(181, 238, 181);
-    font-size: 18px;
-    text-align: center;
+input[type=text] {
+    width: 400px;
+    height: 33px;
+    background-color: #FEFEFE;
     border-radius: 5px;
 }
-.button2:hover
-{
-    background:  rgb(49, 1, 49);
-}
-
 

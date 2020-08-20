@@ -1,21 +1,16 @@
 
-//console.log("toto");
+//console.log("toto") // un classique hihi 
 
-function decimal2binary() { 
-   // alert("toto");
-    var n = document.getElementById("decimal").value;
-    //document.getElementById("decimal");
-    //alert(n);
-    return false;
+function decimal2binary() {
+    var decimal = document.getElementById("decimal").value;
+    return console.log(decimal);
 }
 
 function binary2decimal() {
-    var n = document.getElementById("binary").value;
-    //document.getElementById("binary");
-    //console.log(n);
-    return false;
+    var binary = document.getElementById("binary").value;
+    return console.log(binary);
 }
 
-/* Bon voila, Ludo m'a un peu aide.. le console.log des 2 fonctions ne fonctionnent pas.. 
-c'est pour ca que j'ai laisse le alert sur la myFunction1
-Si tu as une idee?? */
+// Affiche le resultat du console.log dans la vue (donc dans index.html) dans notre paragraphe <p></p>
+// Indice 1 => donner un id a chaque paragraphe. 
+// Indice 2 => innerHTML
